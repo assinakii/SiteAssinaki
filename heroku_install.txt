@@ -1,0 +1,18 @@
+criar conta no heroku
+login: assinaki@hotmail.com
+senha: ver no rascunho do e-mail
+
+requisitos:
+git
+python3
+windows 64. instalar o cli: https://cli-assets.heroku.com/heroku-x64.exe
+windows 32. instalar o cli: https://cli-assets.heroku.com/heroku-x86.exe
+
+depois de instalar, digite no terminal da app, na ide, o comando do heroku:
+
+heroku login
+Enter your Heroku credentials.
+Email: assinaki@hotmail.com
+Password: ver no rascunho do e-mail
+
+mais informações acesse: https://devcenter.heroku.com/articles/getting-started-with-python#set-up
