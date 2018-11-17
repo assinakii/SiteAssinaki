@@ -50,7 +50,7 @@ git commit -m "deploy de teste"
 git push heroku master
 ```
 
-O app está online com o nome [assinaki](https://assinaki.herokuapp.com/)
+O app está online com o nome [assinaki](https://assinaki.herokuapp.com/). Contudo não é possível ver nada enquanto o app estiver no modo debug e sem métodos.
 
 
 
