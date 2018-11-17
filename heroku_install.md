@@ -1,5 +1,12 @@
 # Criar a conta no heroku
 
+Antes de começar execute o comando abaixo
+```sh
+pip install -r requeriments.txt
+```
+
+Agora você precisa ter acesso ao e-mail e seguir os passoa abaixo.
+
 * login: assinaki@hotmail.com
 * senha: [ver no rascunho do e-mail](https://outlook.live.com/mail/compose/AQMkADAwATY0MDABLWZiNTQtODdkNS0wMAItMDAKAEYAAANggYPBfJK2SIkCcBRhb8fiBwAfPRAIKmGyT44q9cSc8%2BIfAAACAQ8AAAAfPRAIKmGyT44q9cSc8%2BIfAAABWHIhAAAA)
 
@@ -30,7 +37,7 @@ ou
 Para obter mais informações acesse o [devcenter](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
 
 ***
-Execute com o comando
+Execute com o comando abaixo para prepara o servdidor para receber a app
 
 ```sh
 heroku create
