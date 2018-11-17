@@ -28,3 +28,15 @@ ou
 ```
 
 Para obter mais informações acesse o [devcenter](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
+
+***
+Execute com o comando
+
+```sh
+heroku create
+```
+Para fazer o ```deploy``` digite no terminal:
+```sh
+git push heroku master
+```
+
