@@ -50,3 +50,7 @@ git commit -m "deploy de teste"
 git push heroku master
 ```
 
+O app está online com o nome [assinaki](https://assinaki.herokuapp.com/)
+
+
+
