@@ -27,4 +27,4 @@ ou
     Password: 
 ```
 
-mais informações acesse o [devcenter](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
+Para obter mais informações acesse o [devcenter](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
