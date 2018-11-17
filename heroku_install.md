@@ -41,9 +41,12 @@ Execute com o comando abaixo para prepara o servdidor para receber a app
 
 ```sh
 heroku create
+sudo heroku git:remote -a protected-waters-56490
 ```
 Para fazer o ```deploy``` digite no terminal:
 ```sh
+git add .
+git commit -m "deploy de teste"
 git push heroku master
 ```
 
