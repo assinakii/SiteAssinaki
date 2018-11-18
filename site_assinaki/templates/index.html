@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" />
 <head>
-    <meta charset="UTF-8">
-    <title>Assinaki</title>
+<meta charset="utf-8" />
+<meta name="author" content="Tiago Angelo Menegaz" />
+<link charset="utf-8" rel="stylesheet" href="css/Desconhecido.css" />
+<link rel="shortcut icon" href="img/Desconhecido.ico" type="image/x-icon" />
+<title>Index - página de teste</title>
 </head>
 <body>
-    <h1>Olá mundo!</h1>
+    <h1>Olá, mundo!</h1>
+
+    <!-- Javascript inline -->
+    <button id="button">Click me</button>
+    <p id="msg"></p>
+
+    <!-- Javascript tag bloco-->
+    <script>
+    	var button = document.getElementById('button');
+    	var msg = document.getElementById('msg');
+    	button.addEventListener("click", function (){
+    		if(msg.firstChild == null){
+    			msg.appendChild(document.createTextNode('Olá mundo!'));
+    		}
+    	});
+    </script>
+
+    <!-- Javascript tag -->
+    <script src="Desconhecido.js"></script>
+
+    </script>
 </body>
 </html>
