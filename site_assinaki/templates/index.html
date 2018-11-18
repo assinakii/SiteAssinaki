@@ -1,33 +1,90 @@
-<!DOCTYPE html>
-<html lang="pt-br" />
-<head>
-<meta charset="utf-8" />
-<meta name="author" content="Tiago Angelo Menegaz" />
-<link charset="utf-8" rel="stylesheet" href="css/Desconhecido.css" />
-<link rel="shortcut icon" href="img/Desconhecido.ico" type="image/x-icon" />
-<title>Index - página de teste</title>
-</head>
-<body>
-    <h1>Olá, mundo!</h1>
-
-    <!-- Javascript inline -->
-    <button id="button">Click me</button>
-    <p id="msg"></p>
-
-    <!-- Javascript tag bloco-->
-    <script>
-    	var button = document.getElementById('button');
-    	var msg = document.getElementById('msg');
-    	button.addEventListener("click", function (){
-    		if(msg.firstChild == null){
-    			msg.appendChild(document.createTextNode('Olá mundo!'));
-    		}
-    	});
-    </script>
-
-    <!-- Javascript tag -->
-    <script src="Desconhecido.js"></script>
-
-    </script>
-</body>
-</html>
+{% extends "base.html"%}
+    {% block conteudo %}
+    <div class="splash">
+        <div class="pure-g-r">
+            <div class="pure-u-1">
+                <div class="l-box splash-text">
+                    <h1 class="splash-head">
+                        Clique em assinar e solicite a assinatura dos demais interessados de forma rápida e fácil
+                    </h1>
+                    <h2 class="splash-subhead">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim purus mi, mollis sollicitudin massa tincidunt non. Donec lorem lectus, congue id mattis in, tempus laoreet leo.
+                    </h2>
+                    <p>
+                        <a href="#" class="pure-button primary-button">Saiba mais</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="pure-g-r content-ribbon">
+            <div class="pure-u-2-3">
+                <div class="l-box">
+                    <h4 class="content-subhead">Espaço para armazenar seu documentos importantes</h4>
+                    <h3>Cadstre-se gratuitamente</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim purus mi, mollis sollicitudin massa tincidunt non. Donec lorem lectus, congue id mattis in, tempus laoreet leo. Maecenas non purus dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget metus nec turpis commodo hendrerit. Nam nec massa tempus, lacinia nisi nec, finibus enim. Proin scelerisque libero nibh, sed tristique massa varius a.
+                    </p>
+                </div>
+            </div>
+            <div class="pure-u-1-3">
+                <div class="l-box">
+                    <img src="http://placehold.it/400x250"
+                         alt="Vídeo aulas e materiais digitais.">
+                </div>
+            </div>
+        </div>
+        <div class="pure-g-r content-ribbon">
+            <div class="pure-u-1-3">
+                <div class="l-box">
+                    <img src="http://placehold.it/400x250"
+                         alt="Fórum de Dúvidas">
+                </div>
+            </div>
+            <div class="pure-u-2-3">
+                <div class="l-box">
+                    <h4 class="content-subhead">Planos flexíveis</h4>
+                    <h3>Assinaturas avulsa, ou com planos para assinaturas ilimitadas</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim purus mi, mollis sollicitudin massa tincidunt non. Donec lorem lectus, congue id mattis in, tempus laoreet leo. Maecenas non purus dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget metus nec turpis commodo hendrerit. Nam nec massa tempus, lacinia nisi nec, finibus enim. Proin scelerisque libero nibh, sed tristique massa varius a.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="pure-g-r content-ribbon">
+            <div class="pure-u-2-3">
+                <div class="l-box">
+                    <h4 class="content-subhead">Como usar</h4>
+                    <h3>Tenha o documento sempre que precisar</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim purus mi, mollis sollicitudin massa tincidunt non. Donec lorem lectus, congue id mattis in, tempus laoreet leo. Maecenas non purus dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget metus nec turpis commodo hendrerit. Nam nec massa tempus, lacinia nisi nec, finibus enim. Proin scelerisque libero nibh, sed tristique massa varius a.
+                    </p>
+                </div>
+            </div>
+            <div class="pure-u-1-3">
+                <div class="l-box">
+                    <img src="http://placehold.it/400x250"
+                         alt="Exercícios">
+                </div>
+            </div>
+        </div>
+        <div class="pure-g-r content-ribbon">
+            <div class="pure-u-1-3">
+                <div class="l-box">
+                    <img src="http://placehold.it/400x250"
+                         alt="Mural de Avisos">
+                </div>
+            </div>
+            <div class="pure-u-2-3">
+                <div class="l-box">
+                    <h4 class="content-subhead">Acompanhe o fluxo de seu documeto</h4>
+                    <h3>Tenha certeza se seu documento foi assinado ou necessita de ajustes</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim purus mi, mollis sollicitudin massa tincidunt non. Donec lorem lectus, congue id mattis in, tempus laoreet leo. Maecenas non purus dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget metus nec turpis commodo hendrerit. Nam nec massa tempus, lacinia nisi nec, finibus enim. Proin scelerisque libero nibh, sed tristique massa varius a.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
